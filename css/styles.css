@@ -74,6 +74,7 @@ h1 {
 
 .section-advantages-title {
   color: var(--title-text-color);
+  text-transform: uppercase;
 }
 .section-advantages {
   font-weight: 700;
@@ -124,10 +125,13 @@ h1 {
 }
 .footer .contacts {
   color: rgba(255, 255, 255, 0.6);
+
 }
 .footer .logo-studio {
   color: var(--primary-white-color);
 }
+.footer .contacts:hover {
+  color: var(--accent-color);
 
 /* Button */
 
@@ -142,6 +146,7 @@ h1 {
   letter-spacing: 0.06em;
   cursor: pointer;
 }
+
 .button-hover {
   color: var(--title-text-color);
   font-family: Roboto;
@@ -164,14 +169,18 @@ h1 {
 }
 /*Portfolio*/
 .portfolio-example {
-  font-weight: 700;
+  font-weight:700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.portfolio-example p {
+.portfolio-type{
   font-size: 16px;
   line-height: 1.87;
   color: var(--primary-text-color);
+}
+
+.studio-color, .portfolio-color {
+  color: var(--accent-color);
 }
