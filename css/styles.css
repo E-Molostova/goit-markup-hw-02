@@ -74,6 +74,7 @@ h1 {
 
 .section-advantages-title {
   color: var(--title-text-color);
+  font-size: 14px;
   text-transform: uppercase;
   line-height: 1.14;
   font-weight: 700;
@@ -107,12 +108,21 @@ h1 {
 .section-team-name {
   color: var(--title-text-color);
 }
+.section-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+}
 
 .section-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17x;
-  text-align: center;
+}
+.section-team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
 
 /*Footer*/
